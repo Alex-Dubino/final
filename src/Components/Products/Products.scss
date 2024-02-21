@@ -1,0 +1,111 @@
+@import "../../style/vars.scss";
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .glContent {
+    display: flex;
+    @media (max-width: 920px) {
+      flex-direction: column-reverse;
+    }
+    .container__basket {
+      flex-basis: 25%;
+      margin-right: 30px;
+      @media (max-width: 920px) {
+        margin-right: 0;
+      }
+    }
+    .container_content {
+      flex-grow: 1;
+      .content {
+        .container_cards-title {
+          text-align: center;
+          color: #000;
+          font-family: $font;
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 120%;
+          margin-bottom: 24px;
+        }
+        .container_products {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 30px;
+          margin-bottom: 130px;
+          @media (max-width: 1080px) {
+            grid-template-columns: repeat(2, 1fr);
+          }
+          @media (max-width: 480px) {
+            grid-template-columns:  1fr;
+            margin-bottom: 20px;
+          }
+          h1 {
+            font-family: $font;
+            font-weight: 700;
+            text-align: center;
+          }
+        }
+        .burgers__card {
+          padding: 12px;
+          background-color: white;
+          border-radius: 18px;
+          .burgers__card-head {
+            margin-bottom: 16px;
+            img {
+              width: 100%;
+            }
+          }
+          .burgers__card-body {
+            margin-bottom: 9px;
+            .price {
+              font-family: $font;
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 0em;
+              color: rgba(0, 0, 0, 1);
+              margin-bottom: 8px;
+            }
+            .title {
+              font-family: $font;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 21px;
+              letter-spacing: 0em;
+              color: rgba(0, 0, 0, 1);
+              margin-bottom: 29px;
+            }
+            .massa {
+              font-family: $font;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 21px;
+              letter-spacing: 0em;
+              color: rgba(177, 177, 177, 1);
+            }
+          }
+          .burgers__card-footer {
+            button {
+              width: 100%;
+              height: 40px;
+              border-radius: 12px;
+              background: rgba(242, 242, 243, 1);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-family: $font;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 16px;
+              letter-spacing: 0em;
+              color: rgba(0, 0, 0, 1);
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

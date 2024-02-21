@@ -1,0 +1,189 @@
+{
+  "burgers": {
+    "title": "Бургеры",
+    "items": [
+      {
+        "img": "./burgerCards1.png ",
+        "price": "689₽",
+        "title": "Мясная бомба",
+        "massa": "520г",
+        "id": "1",
+        "confCost": 689,
+        "count": 1,
+        "description": "Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.",
+        "sostav": [
+          "Пшеничная булочка",
+          "Котлета из говядины",
+          "Красный лук",
+          "Листья салата",
+          "Соус горчичный"
+        ]
+      },
+      {
+        "img": "./burgerCards2.png ",
+        "price": "550₽",
+        "title": "Супер сырный",
+        "massa": "512г",
+        "id": "2",
+        "confCost": 550,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "./burgerCards3.png ",
+        "price": "639₽",
+        "title": "Сытный",
+        "massa": "580г",
+        "id": "3",
+        "confCost": 639,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "./burgerCards4.png ",
+        "price": "480₽",
+        "title": "Тяжелый удар",
+        "massa": "470г",
+        "id": "4",
+        "confCost": 480,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "./burgerCards5.png ",
+        "price": "450₽",
+        "title": "Вечная классика",
+        "massa": "450г",
+        "id": "5",
+        "confCost": 450,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "./burgerCards6.png ",
+        "price": "560₽",
+        "title": "Итальянский",
+        "massa": "510г",
+        "id": "6",
+        "confCost": 560,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      }
+    ],
+    "id": 1
+  },
+
+  "snaks": {
+    "title": "Закуски",
+    "items": [
+      {
+        "img": "../../public/snacksCard1.png ",
+        "price": "250₽",
+        "title": "Начос",
+        "massa": "220г",
+        "id": "2",
+        "confCost": 250,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "../../public/snacksCard2.png ",
+        "price": "245₽",
+        "title": "Картошка фри",
+        "massa": "180г",
+        "id": "2",
+        "confCost": 245,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "../../public/snacksCard3.png ",
+        "price": "230₽",
+        "title": "Луковые кольца",
+        "massa": "160г",
+        "id": "2",
+        "confCost": 230,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      }
+    ],
+    "id": 2
+  },
+  "hotDog": {
+    "title": "Хот-доги",
+    "items": [
+      {
+        "img": "../../public/hotDog1.png ",
+        "price": "290₽",
+        "title": "Домашний хот-дог",
+        "massa": "250г",
+        "id": "2",
+        "confCost": 290,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "../../public/hotDog2.png ",
+        "price": "239₽",
+        "title": "Жгучий хот-дог",
+        "massa": "180г",
+        "id": "2",
+        "confCost": 245,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      },
+      {
+        "img": "../../public/hotDog3.png ",
+        "price": "220₽",
+        "title": "Классический хот-дог",
+        "massa": "215г",
+        "id": "2",
+        "confCost": 220,
+        "count": 1,
+        "description": "Заполняется...",
+        "sostav": []
+      }
+    ],
+    "id": 3
+  },
+  "combo": {
+    "title": "Комбо",
+    "items": [],
+    "id": 4
+  },
+  "sawarma": {
+    "title": "Шаурма",
+    "items": [],
+    "id": 5
+  },
+  "pizza": {
+    "title": "Пицца",
+    "items": [],
+    "id": 6
+  },
+  "wok": {
+    "title": "Вок",
+    "items": [],
+    "id": 7
+  },
+  "desserts": {
+    "title": "Десерты",
+    "items": [],
+    "id": 8
+  },
+  "sauces": {
+    "title": "Соусы",
+    "items": [],
+    "id": 9
+  }
+}

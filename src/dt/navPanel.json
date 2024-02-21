@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Бургеры",
+    "pathImg": "./nav/Бургеры.png",
+    "pathRoute": "/",
+    "id": 1
+  },
+  {
+    "title": "Закуски",
+    "pathImg": "./nav/Закуски.png",
+    "pathRoute": "/snaks",
+    "id": 2
+  },
+  {
+    "title": "Хот-доги",
+    "pathImg": "./nav/Хот-доги.png",
+    "pathRoute": "/hotDog",
+    "id": 3
+  },
+  {
+    "title": "Комбо",
+    "pathImg": "./nav/Комбо.png",
+    "pathRoute": "/combo",
+    "id": 4
+  },
+  {
+    "title": "Шаурма",
+    "pathImg": "./nav/Шаурма.png",
+    "pathRoute": "/sawarma",
+    "id": 5
+  },
+  {
+    "title": "Пицца",
+    "pathImg": "./nav/Пицца.png",
+    "pathRoute": "/pizza",
+    "id": 6
+  },
+  {
+    "title": "Вок",
+    "pathImg": "./nav/Вок.png",
+    "pathRoute": "/wok",
+    "id": 7
+  },
+  {
+    "title": "Десерты",
+    "pathImg": "./nav/Десерты.png",
+    "pathRoute": "/desserts",
+    "id": 8
+  },
+  {
+    "title": "Соусы",
+    "pathImg": "./nav/Соусы.png",
+    "pathRoute": "/sauces",
+    "id": 9
+  }
+]

@@ -1,0 +1,69 @@
+@import "./vars.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  .cont__allBurgers {
+    width: 70%;
+    .cont__allBurgers-wrap {
+      div {
+        display: flex;
+        width: 93%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        .burgers__card {
+          width: 28%;
+        }
+      }
+    }
+  }
+}
+header {
+  min-height: 20vh;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+  @media(max-width:1080px){
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .container_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      margin-right: 10px;
+    }
+    span {
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: rgba(0, 0, 0, 1);
+      text-decoration: none;
+    }
+  }
+  .active {
+    border-radius: 50px;
+    background: rgba(255, 171, 8, 1);
+    padding: 8px 14px;
+  }
+}
